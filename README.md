@@ -1,8 +1,8 @@
-# Git-Cheat: Repository Transfer Tool
+# RepoPorter
 
 A powerful tool for transferring Git repositories while rewriting commit history and modifying commit messages.
 
-![Git-Cheat Banner](https://repository-images.githubusercontent.com/372789422/59a5a9a8-c0a9-47c1-b27d-23e5d97efdb0)
+
 
 ## Features
 
@@ -53,13 +53,8 @@ The script will guide you through the process with interactive prompts:
 ## Example
 
 ```
-$ python gitcheat.py
+$ python RepoPorter.py
 
-       ____   ___   _____            ____   _   _   _____      _      _____ 
-      / ___| |_ _| |_   _|          / ___| | | | | | ____|    / \    |_   _|
-     | |  _   | |    | |    _____  | |     | |_| | |  _|     / _ \     | |  
-     | |_| |  | |    | |   |_____| | |___  |  _  | | |___   / ___ \    | |  
-      \____| |___|   |_|            \____| |_| |_| |_____| /_/   \_\   |_|  
     
 Enter the URL of the old repository: https://github.com/original-owner/example-repo.git
 Enter the URL of the new repository: git@github.com:your-username/example-repo.git
